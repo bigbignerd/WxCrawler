@@ -4,9 +4,10 @@
 可以获取的信息包括：文章html富文本，无图html文本，以及文章的基本信息：标题、作者、封面图片、公众号等信息。
 
 使用方式：
-
+```
 $crawler = new WxCrawler();
 $content = $crawler->crawByUrl($url);
+```
 
 content数组结构为：
 ```
