@@ -39,7 +39,7 @@ class WxCrawler
 		$this->referer = empty($referer)?'http://weixin.sogou.com/' : $referer;
 		$this->host    = empty($host)?'weixin.sogou.com' : $host;
 		/** @var 处理微信图片的防盗链 */
-		$this->antiLeech = 'http://'.$_SERVER['SERVER_NAME'].'/admin.php/tool/wechat-img?url=';
+		$this->antiLeech = 'http://'.$_SERVER['SERVER_NAME'].'/tool.php?url=';
 	}
 	/**
 	 * 爬取内容
